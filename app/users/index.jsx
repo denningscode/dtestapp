@@ -60,7 +60,7 @@ export default function Users() {
                 </ScrollView>
             </View>
 
-            {/* <Modalize handleStyle={{ display: "none" }} snapPoint={450} modalStyle={{backgroundColor: "transparent"}}  ref={modalizeRef}>
+            <Modalize handleStyle={{ display: "none" }} snapPoint={450} modalStyle={{backgroundColor: "transparent"}}  ref={modalizeRef}>
                 <View style={{backgroundColor:"#fff", marginHorizontal: 20, borderRadius: 10,}}>
                     <TouchableOpacity style={{padding: 20, borderBottomWidth: 0.5, borderColor: "#f1f1f1", justifyContent: "center", alignItems: "center"}}>
                         <Text style={{color: "dodgerblue", fontSize: 15}}>Mute</Text>
@@ -84,7 +84,7 @@ export default function Users() {
                         <Text style={{color: "dodgerblue", fontWeight: 500, fontSize: 15}}>Cancel</Text>
                     </TouchableOpacity>
                 </View>
-            </Modalize> */}
+            </Modalize>
         </SafeAreaView>
 
     )
